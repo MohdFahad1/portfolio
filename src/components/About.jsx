@@ -60,7 +60,7 @@ const About = () => {
         <h1 className="font-bold text-2xl">Tech Stack: </h1>
         <div className="flex items-center gap-5 mt-3">
           {data.map((item) => (
-            <TooltipProvider key={item.skillName}>
+            <TooltipProvider key={item.skillName} delayDuration={50}>
               <Tooltip asChild>
                 <TooltipTrigger asChild>
                   <Image

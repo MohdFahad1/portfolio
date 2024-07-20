@@ -54,7 +54,7 @@ const Header = () => {
       </div>
       <div className="flex gap-2">
         {icons.map((item) => (
-          <TooltipProvider key={item.href}>
+          <TooltipProvider key={item.href} delayDuration={50}>
             <Tooltip asChild>
               <TooltipTrigger asChild>
                 <a href={item.href} target="_blank">
