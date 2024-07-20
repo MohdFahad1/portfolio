@@ -1,6 +1,6 @@
-import Image from "next/image";
 import React from "react";
-import { Github, Twitter, Mail, Sun } from "lucide-react";
+import Image from "next/image";
+import { Github, Twitter, Mail } from "lucide-react";
 import { Button } from "./ui/button";
 import {
   Tooltip,
@@ -8,6 +8,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import ToggleTheme from "@/components/ToggleTheme";
 
 const icons = [
   {
@@ -49,9 +50,7 @@ const Header = () => {
             <p className="text-gray-400 text-sm">Full Stack Developer</p>
           </div>
         </div>
-        <Button variant="outline">
-          <Sun color="grey" />
-        </Button>
+        <ToggleTheme />
       </div>
       <div className="flex gap-2">
         {icons.map((item) => (
