@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, MoveUpRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
@@ -88,6 +88,14 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex flex-row-reverse mt-5 text-sm">
+        <a
+          className="flex items-center underline hover:text-gray-400 transition duration-300"
+          href="/projects"
+        >
+          All Projects <MoveUpRight size={18} />
+        </a>
       </div>
     </div>
   );
