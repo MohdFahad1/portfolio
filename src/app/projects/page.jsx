@@ -70,7 +70,7 @@ const page = () => {
                         <div className="flex gap-2 flex-wrap mt-3">
                           {item.tech.map((tech) => (
                             <span
-                              className="border-[1px] text-xs font-semibold rounded-full p-1"
+                              className="border-[1px] text-xs font-semibold rounded-full py-1 px-2"
                               key={tech}
                             >
                               {tech}
