@@ -58,7 +58,9 @@ const Header = () => {
             <Tooltip asChild>
               <TooltipTrigger asChild>
                 <a href={item.href} target="_blank">
-                  <Button variant="outline">{item.icon}</Button>
+                  <Button variant="outline" size="icon">
+                    {item.icon}
+                  </Button>
                 </a>
               </TooltipTrigger>
               <TooltipContent>
