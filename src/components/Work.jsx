@@ -18,8 +18,8 @@ const Work = () => {
         <div className="flex flex-col gap-2 mt-2 text-sm font-extralight">
           <p>
             • Collaborated with a teammate to develop a secure, interactive web
-            application using Next.Js and CSS, to deliver an exceptional user
-            experience.
+            application using Next.Js and Tailwind CSS, to deliver an
+            exceptional user experience.
           </p>
           <p>
             • Translated wireframes and design mockups into responsive webpages,

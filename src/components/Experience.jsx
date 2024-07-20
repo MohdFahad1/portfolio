@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div>
       <h1 className="font-bold text-2xl mb-2">Experience</h1>
-      <div className="flex justify-center items-center w-full border-2">
+      <div className="flex justify-center items-center w-full">
         <Tabs defaultValue="experience" className="w-full">
           <TabsList>
             <TabsTrigger value="experience" className="md:w-[295px] w-[195px]">
