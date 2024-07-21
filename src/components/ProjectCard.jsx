@@ -8,7 +8,10 @@ const ProjectCard = () => {
   return (
     <div className="flex flex-col gap-5">
       {data.map((item) => (
-        <div className="border-2 rounded-md md:p-3 p-1" key={item.name}>
+        <div
+          className="border-2 rounded-md md:p-3 p-1 hover:-translate-y-1 transform duration-200 transition hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
+          key={item.name}
+        >
           <div className="flex justify-between">
             <div className="flex gap-2">
               <Image
