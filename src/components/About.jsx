@@ -68,7 +68,7 @@ const About = () => {
                     height={35}
                     width={35}
                     alt={item.skillName}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:-translate-y-1 transform duration-150 transition"
                   />
                 </TooltipTrigger>
                 <TooltipContent>
