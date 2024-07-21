@@ -43,6 +43,7 @@ const Header = () => {
               src="/images/pfp.jpg"
               alt="pfp"
               fill
+              sizes="(max-width: 768px) 100vw, 33vw"
               style={{
                 objectFit: "cover",
                 borderRadius: "50%",
