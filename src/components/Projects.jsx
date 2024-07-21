@@ -9,7 +9,7 @@ const Projects = () => {
       <ProjectCard />
       <div className="flex flex-row-reverse mt-5 text-sm">
         <a
-          className="flex items-center underline hover:text-gray-400 transition duration-300"
+          className="flex items-center hover:underline underline-offset-4 transition duration-300"
           href="/projects"
         >
           All Projects <MoveUpRight size={18} />

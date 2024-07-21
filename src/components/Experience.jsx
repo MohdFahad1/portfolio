@@ -10,10 +10,10 @@ const Experience = () => {
       <div className="flex justify-center items-center w-full">
         <Tabs defaultValue="experience" className="w-full">
           <TabsList>
-            <TabsTrigger value="experience" className="md:w-[295px] w-[195px]">
+            <TabsTrigger value="experience" className="md:w-[295px] w-[163px]">
               Experience
             </TabsTrigger>
-            <TabsTrigger value="education" className="md:w-[295px] w-[195px]">
+            <TabsTrigger value="education" className="md:w-[295px] w-[163px]">
               Education
             </TabsTrigger>
           </TabsList>

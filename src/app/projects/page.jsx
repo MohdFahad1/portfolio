@@ -28,7 +28,7 @@ const page = () => {
           </div>
 
           <div className="flex flex-col justify-center p-5 ">
-            <div className="flex flex-col gap-11 md:w-[600px] w-[400px]">
+            <div className="flex flex-col gap-11">
               <ProjectCard />
             </div>
           </div>
