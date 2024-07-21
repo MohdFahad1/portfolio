@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Github, Twitter, Mail } from "lucide-react";
+import { Github, Twitter, Mail, BriefcaseBusiness } from "lucide-react";
 import { Button } from "./ui/button";
 import {
   Tooltip,
@@ -25,6 +25,11 @@ const icons = [
     icon: <Mail size={22} color="grey" />,
     href: "mailto:fahadmohammad312@gmail.com",
     name: "Mail",
+  },
+  {
+    icon: <BriefcaseBusiness size={22} color="grey" />,
+    href: "https://drive.google.com/file/d/1-dI2xgm0NHLHfwJoOaPuezd8xaa1H1Qz/view?usp=sharing",
+    name: "Resume",
   },
 ];
 
