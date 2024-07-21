@@ -8,7 +8,7 @@ const Contact = () => {
         I'm currently looking for Internship in Software Development or in Web
         Development.! If you know of any positions available, or if you have any
         questions, or if you just want to say hi, please feel free to email me
-        at,{" "}
+        at{" "}
         <a
           href="mailto:fahadmohammad312@gmail.com"
           target="_blank"
