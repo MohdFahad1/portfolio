@@ -8,6 +8,21 @@ export const data = [
     image: "/images/imagefix.png",
   },
   {
+    name: "Easy Logo",
+    link: "https://easy-logo.vercel.app/",
+    github: "https://github.com/MohdFahad1/easy-logo",
+    desc: "A full-stack logo maker application to easily craft unique logos with speed and simplicity.",
+    tech: [
+      "Next.js",
+      "Tailwind CSS",
+      "Context API",
+      "Clerk",
+      "MongoDB",
+      "shadcn/ui",
+    ],
+    image: "/images/easylogo.png",
+  },
+  {
     name: "BudgetBuddy",
     link: "https://expense-tracker-seven-peach.vercel.app/",
     github: "https://github.com/MohdFahad1/expense-tracker",

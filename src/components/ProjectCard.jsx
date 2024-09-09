@@ -19,7 +19,7 @@ const ProjectCard = () => {
                 alt={item.name}
                 height={100}
                 width={100}
-                className="rounded-md border-2 border-gray-300"
+                className="border-2 border-gray-300 rounded-md"
               />
               <div>
                 <h1 className="font-semibold">{item.name}</h1>
@@ -41,7 +41,7 @@ const ProjectCard = () => {
           </div>
           <div>
             <div className="flex gap-2">
-              <div className="flex gap-2 flex-wrap mt-3">
+              <div className="flex flex-wrap gap-2 mt-3">
                 {item.tech.map((tech) => (
                   <span
                     className="border-[1px] text-xs font-semibold rounded-full py-1 px-2"
