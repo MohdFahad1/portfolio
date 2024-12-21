@@ -13,7 +13,7 @@ import Link from "next/link";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-const page = () => {
+const Projects = () => {
   useGSAP(
     () =>
       gsap.from(".project", {
@@ -56,4 +56,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Projects;
