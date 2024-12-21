@@ -6,25 +6,36 @@ const Work = () => {
       <div>
         <div className="flex justify-between">
           <div>
-            <h1 className="text-lg font-semibold">Unicus Mobility</h1>
-            <p className="text-sm font-light">Frontend Developer Intern</p>
+            <h1 className="text-lg font-semibold">Diliate</h1>
+            <p className="text-sm font-light">Fullstack Developer Intern</p>
           </div>
           <div>
-            <h1 className="italic text-sm font-extralight">Remote</h1>
-            <p className="italic text-xs font-extralight">06/23 - 07/23</p>
+            <h1 className="text-sm italic font-extralight">Remote, India</h1>
+            <p className="text-xs italic font-extralight">08/24 - present</p>
           </div>
         </div>
 
         <div className="flex flex-col gap-2 mt-2 text-sm font-extralight">
           <p>
-            • Collaborated with a teammate to develop a secure, interactive web
-            application using Next.Js and Tailwind CSS, to deliver an
-            exceptional user experience.
+            • Developed a full-stack e-commerce platform from scratch, utilizing
+            Next.js 14 for the fotnend and Express.js for the backend.
           </p>
           <p>
-            • Translated wireframes and design mockups into responsive webpages,
-            ensuring pixel-perfect design across various devices and screen
-            sizes.
+            • Designed and implemented robust RESTful APIs for core e-commerce
+            functionalities, including product management, categories, and user
+            authentication using JWT for secure sessions minimizing unauthorized
+            access by 100%.
+          </p>
+          <p>
+            • Implemented performance optimization techniques such as debouncing
+            for search functionality and Intersection Observer for lazy loading,
+            resulting in a 30% improvement in frontend performance and greatly
+            reducing server load.
+          </p>
+          <p>
+            • Collaborated closely with the UI/UX team to enhance the design and
+            create a responsive user interface, ensuring optimal user experience
+            across both mobile and desktop devices.
           </p>
         </div>
       </div>

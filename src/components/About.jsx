@@ -43,12 +43,22 @@ export const data = [
     skillName: "MongoDB",
     skillLogo: "/images/mongodb.svg",
   },
+  {
+    id: 8,
+    skillName: "Prisma",
+    skillLogo: "/images/prisma.svg",
+  },
+  {
+    id: 10,
+    skillName: "GSAP",
+    skillLogo: "/images/gsap.svg",
+  },
 ];
 
 const About = () => {
   return (
     <div>
-      <h1 className="font-bold text-2xl mb-2">Hey there 👋,</h1>
+      <h1 className="mb-2 text-2xl font-bold">Hey there 👋,</h1>
       <p className="font-light">
         I am <span className="font-semibold">Mohd Fahad</span>, a fullstack
         developer from <span className="font-semibold">India</span>, crafting
@@ -57,8 +67,8 @@ const About = () => {
         ecosystem and tools.
       </p>
       <div className="mt-5">
-        <h1 className="font-bold text-2xl">Tech Stack: </h1>
-        <div className="flex items-center gap-5 mt-3 flex-wrap">
+        <h1 className="text-2xl font-bold">Tech Stack: </h1>
+        <div className="flex flex-wrap items-center gap-5 mt-3">
           {data.map((item) => (
             <TooltipProvider key={item.skillName} delayDuration={50}>
               <Tooltip asChild>
@@ -68,7 +78,7 @@ const About = () => {
                     height={35}
                     width={35}
                     alt={item.skillName}
-                    className="cursor-pointer hover:-translate-y-1 transform duration-150 transition"
+                    className="transition duration-150 transform cursor-pointer hover:-translate-y-1"
                   />
                 </TooltipTrigger>
                 <TooltipContent>

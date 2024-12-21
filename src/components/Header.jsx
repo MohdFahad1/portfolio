@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { Github, Twitter, Mail, BriefcaseBusiness } from "lucide-react";
+import {
+  Github,
+  Twitter,
+  Mail,
+  BriefcaseBusiness,
+  Linkedin,
+} from "lucide-react";
 import { Button } from "./ui/button";
 import {
   Tooltip,
@@ -22,13 +28,18 @@ const icons = [
     name: "Twitter",
   },
   {
+    icon: <Linkedin size={22} color="grey" />,
+    href: "https://linkedin.com/in/mohd-fahad-254ba620a",
+    name: "Linkedin",
+  },
+  {
     icon: <Mail size={22} color="grey" />,
     href: "mailto:fahadmohammad312@gmail.com",
     name: "Mail",
   },
   {
     icon: <BriefcaseBusiness size={22} color="grey" />,
-    href: "https://drive.google.com/file/d/1-dI2xgm0NHLHfwJoOaPuezd8xaa1H1Qz/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1Xog25xRsVkUNy4s4olWqxMLJYjB_mXYM/view?usp=sharing",
     name: "Resume",
   },
 ];
@@ -38,7 +49,7 @@ const Header = () => {
     <div>
       <div className="flex justify-between mb-3">
         <div className="flex items-center gap-2">
-          <div className="rounded-full border-2 h-20 w-20 transition cursor-pointer hover:opacity-90 relative gap-2">
+          <div className="relative w-20 h-20 gap-2 transition border-2 rounded-full cursor-pointer hover:opacity-90">
             <Image
               src="/images/pfp.jpg"
               alt="pfp"
@@ -52,8 +63,8 @@ const Header = () => {
             />
           </div>
           <div>
-            <h1 className="font-bold text-lg">Mohd Fahad</h1>
-            <p className="text-gray-400 text-sm">Full Stack Developer</p>
+            <h1 className="text-lg font-bold">Mohd Fahad</h1>
+            <p className="text-sm text-gray-400">Full Stack Developer</p>
           </div>
         </div>
         <ToggleTheme />
