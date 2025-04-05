@@ -39,7 +39,7 @@ const icons = [
   },
   {
     icon: <BriefcaseBusiness size={22} color="grey" />,
-    href: "https://drive.google.com/file/d/1Xog25xRsVkUNy4s4olWqxMLJYjB_mXYM/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1JTrA6hZMew9-UcVEJgXFS_IzdKkMGL1B/view?usp=sharing",
     name: "Resume",
   },
 ];

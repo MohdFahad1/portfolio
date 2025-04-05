@@ -7,18 +7,19 @@ const Work = () => {
         <div className="flex justify-between">
           <div>
             <h1 className="text-lg font-semibold">Diliate</h1>
-            <p className="text-sm font-light">Fullstack Developer Intern</p>
+            <p className="text-sm font-light">Fullstack Developer</p>
           </div>
           <div>
-            <h1 className="text-sm italic font-extralight">Remote, India</h1>
-            <p className="text-xs italic font-extralight">08/24 - present</p>
+            <h1 className="text-sm italic font-extralight">Remote</h1>
+            <p className="text-xs italic font-extralight">03/24 - present</p>
           </div>
         </div>
 
         <div className="flex flex-col gap-2 mt-2 text-sm font-extralight">
           <p>
-            • Developed a full-stack e-commerce platform from scratch, utilizing
-            Next.js 14 for the fotnend and Express.js for the backend.
+            • Developed, deployed and maintained a fullstack e-commerce
+            platform, utilizing Next.js for the fotnend and Express.js,
+            PostgreSql and Prisma for the backend.
           </p>
           <p>
             • Designed and implemented robust RESTful APIs for core e-commerce
