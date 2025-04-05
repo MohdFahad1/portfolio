@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <h1 className="text-xl">More Projects coming soon...</h1>
+        <h1 className="text-xl">More Projects coming soon....</h1>
       </div>
     </>
   );
