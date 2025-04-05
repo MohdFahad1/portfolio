@@ -40,11 +40,16 @@ export const data = [
   },
   {
     id: 7,
+    skillName: "Express Js",
+    skillLogo: "/images/express.png",
+  },
+  {
+    id: 8,
     skillName: "MongoDB",
     skillLogo: "/images/mongodb.svg",
   },
   {
-    id: 8,
+    id: 9,
     skillName: "Prisma",
     skillLogo: "/images/prisma.svg",
   },
