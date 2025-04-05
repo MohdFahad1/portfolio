@@ -35,8 +35,7 @@ const Work = () => {
           </p>
           <p>
             • Collaborated closely with the UI/UX team to enhance the design and
-            create a responsive user interface, ensuring optimal user experience
-            across both mobile and desktop devices.
+            create beter user interfaces.
           </p>
         </div>
       </div>
