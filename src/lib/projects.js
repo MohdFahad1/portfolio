@@ -1,13 +1,5 @@
 export const data = [
   {
-    name: "ImageFix.io",
-    link: "https://restore-photos-tmtb.vercel.app/",
-    github: "https://github.com/MohdFahad1/restore-photos",
-    desc: "Imagefix.io a full stack image restoration application which restore old photos using Cloudinary AI for free.",
-    tech: ["Next.js", "Tailwind CSS", "Next Auth", "MongoDB", "Cloudinary AI"],
-    image: "/images/imagefix.png",
-  },
-  {
     name: "Easy Logo",
     link: "https://easy-logo.vercel.app/",
     github: "https://github.com/MohdFahad1/easy-logo",
@@ -22,9 +14,10 @@ export const data = [
     ],
     image: "/images/easylogo.png",
   },
+
   {
     name: "BudgetBuddy",
-    link: "https://expense-tracker-seven-peach.vercel.app/",
+    link: "https://budgett-buddy.vercel.app/",
     github: "https://github.com/MohdFahad1/expense-tracker",
     desc: "A fullstack budget/expense tracker application to manage and control your expenses.",
     tech: [
@@ -37,6 +30,14 @@ export const data = [
       "shadcn/ui",
     ],
     image: "/images/budgetbuddy.png",
+  },
+  {
+    name: "ImageFix.io",
+    link: "https://image-fix-io.vercel.app/",
+    github: "https://github.com/MohdFahad1/restore-photos",
+    desc: "Imagefix.io a full stack image restoration application which restore old photos using Cloudinary AI for free.",
+    tech: ["Next.js", "Tailwind CSS", "Next Auth", "MongoDB", "Cloudinary AI"],
+    image: "/images/imagefix.png",
   },
   {
     name: "Pixabay Clone",
